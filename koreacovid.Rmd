@@ -43,16 +43,18 @@ cat~cat
 
 ## Graphical results - use ggplot commands to do this  
 
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 
-
+```
   
-
-
-
-
-
+This barchart shows that more Males died than females and more women lived than died.  
   
 ## Numerical results
+
+
+
 
 
 ## Inferential results 
@@ -60,5 +62,7 @@ cat~cat
 
 
 
+
 ## Conclusions
+
 
