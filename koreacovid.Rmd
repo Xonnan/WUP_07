@@ -74,6 +74,8 @@ fisher.test(table1)
 
 The p-value for the chi-squared test is 0.001, so we reject the null hypothesis. 
 
+The Fisher exact test shows that men are 2.3 times more likely to die thatn women in Korea.  
+
 ## Conclusions
 
-
+Overall the barplot consists that men will have a higher death rate, numerical data shows how its an equal amount of death rates, and the inferential results show that the death rate for men is 2.3 times more likely than women.
