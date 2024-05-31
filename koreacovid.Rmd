@@ -53,9 +53,13 @@ This barchart shows that more Males died than females and more women lived than 
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
-
-
+Total amount of female and males alive, total amount of female and male dead, and result of an equal amount of deaths.
 
 ## Inferential results 
 
