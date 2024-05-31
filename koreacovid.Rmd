@@ -32,6 +32,9 @@ state of a patient must be died or alive - we adjust that as well
   
 # Your Question - Is dying independent of sex?
 
+ $H_0$: There is no difference in the amount of deaths per male and female.
+ 
+ $H_A$: There is a difference between the bar and numerical charts that showcases the amount of deaths per male and female.
 
 # Methods
 
@@ -59,13 +62,17 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-Total amount of female and males alive, total amount of female and male dead, and result of an equal amount of deaths.
+The numerical results show that the amount dead and alive for both males and females with the main result showing no difference in the amount of deaths.
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
-
+The p-value for the chi-squared test is 0.001, so we reject the null hypothesis. 
 
 ## Conclusions
 
